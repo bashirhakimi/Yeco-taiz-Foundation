@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لؤي بشير الحكيمي - مهندس العوالم الرقمية</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-black text-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-gray-800">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold">
+                    <span class="text-white">لؤي</span>
+                    <span class="text-green-400">الحكيمي</span>
+                </div>
+                <div class="hidden md:flex space-x-reverse space-x-8">
+                    <a href="#home" class="text-gray-300 hover:text-green-400 transition duration-300">الرئيسية</a>
+                    <a href="#about" class="text-gray-300 hover:text-green-400 transition duration-300">نبذة عني</a>
+                    <a href="#skills" class="text-gray-300 hover:text-green-400 transition duration-300">المهارات</a>
+                    <a href="#projects" class="text-gray-300 hover:text-green-400 transition duration-300">المشاريع</a>
+                    <a href="#contact" class="text-gray-300 hover:text-green-400 transition duration-300">التواصل</a>
+                </div>
+                <button id="mobile-menu" class="md:hidden text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="wave-background bg-grid flex items-center justify-center relative">
+        <!-- الجسيمات المتحركة -->
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <div class="mb-8">
+                <div class="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-green-400 to-blue-500 flex items-center justify-center shadow-2xl">
+                    <span class="text-4xl font-bold text-white">ل</span>
+                </div>
+            </div>
+            
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 text-glow">
+                مرحباً بك في عالم
+            </h1>
+            
+            <div class="text-3xl md:text-5xl font-bold mb-8 text-green-400">
+                <span class="typing-effect">التصميم الرقمي</span>
+            </div>
+            
+            <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
+                نحن نبني مواقع إلكترونية استثنائية تجمع بين الجمال والوظائف المتقدمة
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <button class="btn-glow bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition duration-300">
+                    تعرف علينا
+                </button>
+                <button class="btn-glow border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-black px-8 py-4 rounded-full font-semibold text-lg transition duration-300">
+                    اكتشف بأناتنا
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-900 relative">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-glow">نبذة عني</h2>
+                <div class="w-24 h-1 bg-green-400 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="scroll-reveal">
+                    <h3 class="text-3xl font-bold mb-6 text-green-400">لؤي بشير الحكيمي</h3>
+                    <h4 class="text-xl text-gray-300 mb-6">مهندس العوالم الرقمية</h4>
+                    <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                        أنا مطور ومصمم مواقع إلكترونية متخصص في إنشاء تجارب رقمية استثنائية. 
+                        أجمع بين الإبداع والتكنولوجيا لتحويل الأفكار إلى واقع رقمي يلامس قلوب المستخدمين.
+                    </p>
+                    <p class="text-lg text-gray-300 leading-relaxed mb-8">
+                        مع خبرة تزيد عن 5 سنوات في مجال تطوير الويب، أتقن أحدث التقنيات والأدوات 
+                        لضمان تقديم حلول تقنية متطورة وعالية الجودة.
+                    </p>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-green-500/20 text-green-400 px-4 py-2 rounded-full text-sm">React.js</span>
+                        <span class="bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm">Node.js</span>
+                        <span class="bg-purple-500/20 text-purple-400 px-4 py-2 rounded-full text-sm">UI/UX Design</span>
+                        <span class="bg-yellow-500/20 text-yellow-400 px-4 py-2 rounded-full text-sm">JavaScript</span>
+                    </div>
+                </div>
+                
+                <div class="scroll-reveal">
+                    <div class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8 border border-gray-700">
+                        <h4 class="text-2xl font-bold mb-6 text-green-400">إحصائيات سريعة</h4>
+                        <div class="space-y-6">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-300">سنوات الخبرة</span>
+                                <span class="text-2xl font-bold text-green-400">5+</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-300">المشاريع المكتملة</span>
+                                <span class="text-2xl font-bold text-green-400">50+</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-300">العملاء السعداء</span>
+                                <span class="text-2xl font-bold text-green-400">30+</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-300">أكواب القهوة</span>
+                                <span class="text-2xl font-bold text-green-400">∞</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-black relative">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-glow">مهاراتي التقنية</h2>
+                <div class="w-24 h-1 bg-green-400 mx-auto mb-6"></div>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    مجموعة متنوعة من التقنيات والأدوات التي أتقنها لتحويل الأفكار إلى واقع رقمي
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Frontend Development -->
+                <div class="skill-card rounded-2xl p-8 scroll-reveal">
+                    <div class="w-16 h-16 bg-gradient-to-r from-orange-400 to-red-500 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-green-400">تطوير الواجهات</h3>
+                    <p class="text-gray-300 mb-6">إنشاء واجهات مستخدم تفاعلية وجذابة</p>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold">React.js</span>
+                                <span class="text-sm text-green-400">95%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="progress-bar h-2 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold">Vue.js</span>
+                                <span class="text-sm text-green-400">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="progress-bar h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold">TypeScript</span>
+                                <span class="text-sm text-green-400">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="progress-bar h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend Development -->
+                <div class="skill-card rounded-2xl p-8 scroll-reveal">
+                    <div class="w-16 h-16 bg-gradient-to-r from-green-400 to-blue-500 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2a1 1 0 100-2H5V5a1 1 0 00-1-1zM3 13a1 1 0 100 2h1v-2H3zM14 7a1 1 0 011-1h1a1 1 0 110 2h-1v2a1 1 0 11-2 0V8a1 1 0 01-1-1zM14 11a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM16 11a1 1 0 100 2h1a1 1 0 100-2h-1z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-green-400">تطوير الخادم</h3>
+                    <p class="text-gray-300 mb-6">بناء أنظمة خلفية قوية وقابلة للتوسع</p>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold">Node.js</span>
+                                <span class="text-sm text-green-400">92%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="progress-bar h-2 rounded-full" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold">Python</span>
+                                <span class="text-sm text-green-400">88%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="progress-bar h-2 rounded-full" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold">MongoDB</span>
+                                <span class="text-sm text-green-400">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="progress-bar h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design & UX -->
+                <div class="skill-card rounded-2xl p-8 scroll-reveal">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-400 to-purple-500 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-green-400">التصميم وتجربة المستخدم</h3>
+                    <p class="text-gray-300 mb-6">تصميم واجهات جميلة وتجارب استثنائية</p>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold">Figma</span>
+                                <span class="text-sm text-green-400">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="progress-bar h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold">Adobe XD</span>
+                                <span class="text-sm text-green-400">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="progress-bar h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold">UI/UX Design</span>
+                                <span class="text-sm text-green-400">88%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="progress-bar h-2 rounded-full" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12 scroll-reveal">
+                <button class="btn-glow bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-semibold text-lg">
+                    عرض جميع المشاريع
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-black relative">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-glow">تواصل معي</h2>
+                <div class="w-24 h-1 bg-green-400 mx-auto mb-6"></div>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    هل لديك فكرة مشروع؟ أم تريد مناقشة فرصة تعاون؟ دعنا نتحدث!
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                <!-- Contact Info -->
+                <div class="scroll-reveal">
+                    <div class="skill-card rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold mb-6 text-green-400">معلومات التواصل</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-center space-x-reverse space-x-4">
+                                <div class="w-12 h-12 bg-green-500/20 rounded-full flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-white">البريد الإلكتروني</h4>
+                                    <p class="text-gray-300">luai.alhakimi@email.com</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center space-x-reverse space-x-4">
+                                <div class="w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-white">رقم الهاتف</h4>
+                                    <p class="text-gray-300">+966 50 123 4567</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center space-x-reverse space-x-4">
+                                <div class="w-12 h-12 bg-purple-500/20 rounded-full flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-white">الموقع</h4>
+                                    <p class="text-gray-300">الرياض، المملكة العربية السعودية</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-8 pt-8 border-t border-gray-700">
+                            <h4 class="font-semibold text-white mb-4">تابعني على</h4>
+                            <div class="flex space-x-reverse space-x-4">
+                                <a href="#" class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white hover:bg-blue-700 transition duration-300">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center text-white hover:bg-blue-900 transition duration-300">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center text-white hover:bg-gray-800 transition duration-300">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="scroll-reveal">
+                    <div class="skill-card rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold mb-6 text-green-400">أرسل رسالة</h3>
+                        
+                        <form class="space-y-6" id="contact-form">
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-300 mb-2">الاسم الكامل</label>
+                                    <input type="text" class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-400 focus:border-transparent transition duration-300 text-white" placeholder="أدخل اسمك الكامل">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-300 mb-2">البريد الإلكتروني</label>
+                                    <input type="email" class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-400 focus:border-transparent transition duration-300 text-white" placeholder="أدخل بريدك الإلكتروني">
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-300 mb-2">الموضوع</label>
+                                <input type="text" class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-400 focus:border-transparent transition duration-300 text-white" placeholder="موضوع الرسالة">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-300 mb-2">الرسالة</label>
+                                <textarea rows="6" class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-400 focus:border-transparent transition duration-300 text-white" placeholder="اكتب رسالتك هنا..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full btn-glow bg-green-500 hover:bg-green-600 text-white py-4 rounded-lg font-semibold text-lg">
+                                إرسال الرسالة
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 border-t border-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <h3 class="text-2xl font-bold mb-4">
+                        <span class="text-white">لؤي</span>
+                        <span class="text-green-400">الحكيمي</span>
+                    </h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        مهندس العوالم الرقمية، أحول الأفكار إلى واقع رقمي استثنائي. 
+                        شغوف بالتكنولوجيا والابتكار، وملتزم بتقديم حلول تقنية متميزة.
+                    </p>
+                    <div class="flex space-x-reverse space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-green-400 transition duration-300">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-green-400 transition duration-300">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-green-400 transition duration-300">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-green-400">روابط سريعة</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-300 hover:text-green-400 transition duration-300">الرئيسية</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-green-400 transition duration-300">نبذة عني</a></li>
+                        <li><a href="#skills" class="text-gray-300 hover:text-green-400 transition duration-300">المهارات</a></li>
+                        <li><a href="#projects" class="text-gray-300 hover:text-green-400 transition duration-300">المشاريع</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-green-400 transition duration-300">التواصل</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-green-400">خدماتي</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-green-400 transition duration-300">تطوير المواقع</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-green-400 transition duration-300">تطوير التطبيقات</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-green-400 transition duration-300">تصميم UI/UX</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-green-400 transition duration-300">استشارات تقنية</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-green-400 transition duration-300">حلول الذكاء الاصطناعي</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-300">
+                    © 2024 لؤي بشير الحكيمي. جميع الحقوق محفوظة. صُنع بـ ❤️ في المملكة العربية السعودية
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
